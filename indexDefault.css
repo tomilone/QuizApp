@@ -1,0 +1,97 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: yellow;
+}
+
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 24px;
+    padding-left: 0px;
+}
+
+h1{
+    text-align:center;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.start-button, .submitButton, .next, .restart {
+    display: block;
+    margin: auto;
+    background-color: green;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.quizBox{
+    border: 2px solid gainsboro;
+
+}
+ .cs-questions{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.js-results p {
+    text-align: center;
+}
+
+
+label {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.questions{
+    text-align: center;
+    font-size: 24px;
+    color: blue;
+}
+
+fieldset{
+    border: none;
+}
+
+ .js-response{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.wrong, .correct, .end {
+    height: 250px;
+    width: 250px;
+}
+
+
+
+h2{
+    font-weight: normal;
+}
+
+p{
+    font-size: 20px;
+}
+
+.final-results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid gainsboro;
+}
+
+.js-response{
+    border: 2px solid gainsboro;
+}
