@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: yellow;
+    background-color: #F7FE2F;
 }
 
 
@@ -26,7 +26,7 @@ h1{
 .start-button, .submitButton, .next, .restart {
     display: block;
     margin: auto;
-    background-color: green;
+    background-color: #C01919;
     border: none;
     font-size: 20px;
     color: white;
@@ -54,6 +54,9 @@ h1{
 label {
     padding-left: 12px;
     padding-right: 12px;
+    display:inline-block;
+    width: 200px;
+    text-align: center;
 }
 .questions{
     text-align: center;
@@ -70,14 +73,14 @@ fieldset{
     align-items: center;
 } 
 .wrong, .correct, .end {
-    height: 250px;
-    width: 250px;
+    height: 200px;
 }
 
 
 
 h2{
     font-weight: normal;
+    text-align: center;
 }
 
 p{
